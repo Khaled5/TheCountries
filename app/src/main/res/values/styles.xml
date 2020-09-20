@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HeaderTextViewStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/_5sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+
+    <style name="BodyTextViewStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/_5sdp</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textColor">@color/colorGray</item>
+
+    </style>
+
+</resources>
